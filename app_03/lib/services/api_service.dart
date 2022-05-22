@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'package:app_03/services/log_service.dart';
 
-var _uri = Uri.https("api.hgbrasil.com", "/finance", { "key": "b15461b6" });
+var _uri = Uri.https("api.hgbrasil.com", "/finance", { "key": "461fe7a9" });
 
 class APIService {
   static Future<String?> getBody() async {
